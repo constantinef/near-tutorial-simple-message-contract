@@ -1,5 +1,6 @@
 # Creating and upgrading a simple message contract
 [![Open in Gitpod!](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/constantinef/near-tutorial-simple-message-contract)
+
 # Description
 Creating and upgrading a simple message contract
 
@@ -97,7 +98,7 @@ Initialize your project by running in your project directory:
 ``` sh
 cargo init --lib
 ```
-
+> If you using Gitprod - file already editated.
 Edit the generated `Cargo.toml` file to provide your project details and setup:
 
 ``` conf
@@ -126,11 +127,11 @@ panic = "abort"
 overflow-checks = true
 ```
 
-### Create the initial contract
+### The initial contract
 
 This a simple contract that lets you record record a message and then retrieve the recorded message.
 
-In the `src/lib.rs` file, provide your smart contract:
+In the `src/lib.rs` file, we provide you with a smart contract:
 
 ``` rust
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
