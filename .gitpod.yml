@@ -24,4 +24,5 @@ tasks:
     init: |
       rustup target add wasm32-unknown-unknown
       cargo init --lib
+      yarn
     command: source ~/.bashrc; gp open README-Gitpod.md && yarn dev
