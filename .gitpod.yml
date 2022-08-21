@@ -20,6 +20,6 @@ github:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - before: echo "nvm use 14.19.3" >> ~/.bashrc && npm install --location=global near-cli && nvm use 14.19.3
+  - before: echo "nvm use 14.19.3" >> ~/.bashrc && npm install --location=global near-cli && nvm install 14.19.3 && nvm use 14.19.3
     init: rustup target add wasm32-unknown-unknown && cargo init --lib
     command: source ~/.bashrc; gp open README-Gitpod.md && yarn dev
