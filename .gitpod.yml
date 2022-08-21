@@ -1,0 +1,6 @@
+tasks:
+  - name: Dependencies
+    init: |
+      npm install
+      npm install -g near-cli
+      
