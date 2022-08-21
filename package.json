@@ -1,6 +1,6 @@
 {
   "name": "simple_message_contract",
-  "description": "A Rust counter that lives in the NEAR blockchain.",
+  "description": "This tutorial guides you through creating a simple message contract, deploying the contract, interacting with it, and upgrading it.",
   "version": "1.0.0",
   "license": "(MIT AND Apache-2.0)",
   "scripts": {
