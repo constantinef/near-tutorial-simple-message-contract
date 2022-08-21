@@ -1,8 +1,9 @@
 {
   "name": "simple_message_contract",
-  "description": "Creating and upgrading a simple message contract",
+  "description": "A Rust counter that lives in the NEAR blockchain.",
   "version": "1.0.0",
   "license": "(MIT AND Apache-2.0)",
+  "scripts": {
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
@@ -17,4 +18,5 @@
   "dependencies": {
     "near-api-js": "^0.44.2",
     "regenerator-runtime": "^0.13.9"
+  }
 }
