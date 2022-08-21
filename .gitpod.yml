@@ -1,5 +1,5 @@
 tasks:
-  - name: Dependencies
+  - name: Dependencies & commands
     init: |
       npm install --location=global near-cli
       rustup target add wasm32-unknown-unknown
