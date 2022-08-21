@@ -20,5 +20,6 @@ github:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: yarn
-    command: yarn dev
+  - before: echo "nvm use 14.19.3" >> ~/.bashrc && npm install -g near-cli && nvm use 14.19.3
+    init: yarn
+    command: source ~/.bashrc; gp open README-Gitpod.md && yarn dev
