@@ -22,4 +22,4 @@ github:
 tasks:
   - before: echo "nvm use 14.19.3" >> ~/.bashrc && npm install --location=global near-cli && nvm install 14.19.3 && nvm use 14.19.3
     init: yarn
-    command: source ~/.bashrc; gp open README-Gitpod.md && yarn dev
+    command: source ~/.bashrc; gp open README.md && yarn dev
