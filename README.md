@@ -407,9 +407,3 @@ near view simplemessage.upgradablecontract.testnet get_bio '{"account_id": "upgr
 This tutorial guided you through the basics of creating a simple NEAR contract, deploying the initial contract on the NEAR network, interacting with the contract, and upgrading the contract.
 
 This tutorial uses the testnet, however the exact same instructions and sequence will work on the mainnet as well.
-
-::: tip See also
-
-* [Operations: NEAR](/operations/near/)
-
-:::
